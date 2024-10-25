@@ -1,0 +1,33 @@
+/* src/components/Introduction.css */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-photo {
+    width: 200px; /* Set width to 200px */
+    height: 200px; /* Ensure the height matches */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; /* Spacing between image and text */
+  }
+  
+  .intro-text {
+    text-align: center; /* Center the text */
+    max-width: 600px;
+  }
+  
+  .intro-text h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
