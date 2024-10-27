@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ title, description, link, imageUrl }) => {
+const ProjectCard = ({ id, title, description, imageUrl }) => {
   return (
     <div className="project-card">
       <img src={imageUrl} alt={`${title} screenshot`} className="project-image" />
       <div className="project-details">
         <h3>{title}</h3>
         <p>{description}</p>
-        <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
+        <Link to={`/project/${id}`} className="view-project-link">View Project</Link>
       </div>
     </div>
   );

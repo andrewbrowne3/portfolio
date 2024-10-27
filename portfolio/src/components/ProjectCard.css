@@ -1,3 +1,4 @@
+/* src/components/ProjectCard.css */
 .project-card {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -11,8 +12,10 @@
   }
   
   .project-image {
-    width: 100%;
-    height: auto;
+    width: 100%;           /* Ensure the image scales to the container width */
+    max-width: 200px;       /* Limit the maximum width of the image */
+    height: 150px;          /* Fixed height for uniformity */
+    object-fit: cover;      /* Crop the image to fit within dimensions */
     border-radius: 8px;
     margin-bottom: 0.5rem;
   }

@@ -1,0 +1,61 @@
+{
+    "projects": [
+      {
+        "id": "world-map",
+        "title": "World Map Application",
+        "description": "A map application showcasing global locations.",
+        "link": "https://github.com/yourgithub/project2",
+        "imageUrl": "https://andrewslearningimage-bucket.s3.us-east-1.amazonaws.com/worldmap.png"
+      },
+      {
+        "id": "learning-center",
+        "title": "Andrew's Learning Center",
+        "description": "Interactive learning platform.",
+        "link": "https://andrewslearning.com",
+        "imageUrl": "https://andrewslearningimage-bucket.s3.amazonaws.com/media/ALClogo.png"
+      },
+      {
+        "id": "mentee-college",
+        "title": "Mentee College",
+        "description": "A comprehensive portal for college administration and resources.",
+        "link": "https://menteecollege.com",
+        "imageUrl": "https://andrewslearningimage-bucket.s3.us-east-1.amazonaws.com/MenteeCollegeimage.png"
+      },
+      {
+        "id": "formulator",
+        "title": "Formulator",
+        "description": "A tool for creating and managing formulations.",
+        "link": "https://github.com/yourgithub/project2",
+        "imageUrl": "https://andrewslearningimage-bucket.s3.us-east-1.amazonaws.com/Formulator+.png"
+      },
+      {
+        "id": "dna-translation",
+        "title": "DNA Translation Application",
+        "description": "A bioinformatics tool to translate DNA sequences.",
+        "link": "https://github.com/yourgithub/project2",
+        "imageUrl": "https://andrewslearningimage-bucket.s3.us-east-1.amazonaws.com/DNA_translator.png"
+      },
+      {
+        "id": "langchain-ai",
+        "title": "LangChain AI agents",
+        "description": "An AI-based application utilizing LangChain technology.",
+        "link": "https://github.com/yourgithub/project2",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*1L5F1Vd-lEeUQItztlbkhw.png"
+      },
+      {
+        "id": "dht11-sensor",
+        "title": "DHT11 CCS811 Sensor with Capacitance",
+        "description": "A sensor project integrating DHT11 and CCS811 for environmental monitoring.",
+        "link": "https://github.com/yourgithub/project2",
+        "imageUrl": "https://cdn-shop.adafruit.com/970x728/3269-04.jpg"
+      },
+      {
+        "id": "password-generator",
+        "title": "Random Password Generator Application",
+        "description": "A simple tool to generate random secure passwords.",
+        "link": "https://github.com/yourgithub/project2",
+        "imageUrl": "https://thumbs.dreamstime.com/b/lock-key-icon-355812.jpg"
+      }
+    ]
+  }
+  
