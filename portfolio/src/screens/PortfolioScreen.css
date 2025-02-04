@@ -22,8 +22,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 1rem;
   }
   
+  /* Card styles */
   .card {
     border: 1px solid #ddd;
     padding: 1rem;
@@ -31,10 +33,21 @@ body {
     border-radius: 8px;
     width: 250px;
     text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
   }
   
   a {
     color: #61dafb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
   
   footer {
@@ -43,5 +56,92 @@ body {
     background-color: #282c34;
     color: white;
     margin-top: 2rem;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 80%;
+      margin: 1rem 0;
+    }
+  
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    header, footer {
+      padding: 1rem 0.5rem;
+    }
+  }
+  /* Section styling */
+#science {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+#science h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Card container styling */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem; /* space between cards */
+}
+
+/* Individual card styling */
+.science-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Title */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Authors */
+.card-authors {
+  font-size: 1rem;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+/* Status */
+.card-status {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 90%;
+      padding: 0.8rem;
+    }
+  
+    header, footer {
+      padding: 1rem 0.3rem;
+    }
+  
+    nav a {
+      font-size: 14px;
+    }
   }
   

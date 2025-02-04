@@ -11,9 +11,10 @@ const Introduction = () => {
       />
       <div className="intro-text">
         <center>
-        <h1>Greetings</h1>
+        <h1>Welcome!</h1>
         <p>
-          Hi! I’m Andrew Browne, a full-stack developer and scientist. I build custom web applications 
+          Hi! I’m Andrew Browne, a biochemist specializing in assay development, structural biology, and computational chemistry. I am also a trained full stack developer 
+          and have experience with various aspects in machine learning! I build custom web applications 
           and tools for a variety of industries. Explore my portfolio to see my work, and feel free to 
           reach out if you’d like to collaborate!
         </p></center>

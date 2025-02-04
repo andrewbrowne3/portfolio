@@ -105,6 +105,56 @@
     font-size: 1.2em;
   }
   
+  .image-modal .close-button:hover {
+    background: #ccc;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Embedded video styles */
+  .video-gallery {
+    margin-top: 30px;
+  }
+  
+  .video-gallery h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  iframe {
+    width: 560px;
+    height: 315px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  iframe:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+  }
+  
   @media (max-width: 600px) {
     .project-details h2 {
       font-size: 1.5em;
@@ -117,18 +167,16 @@
     .gallery-images {
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
+  
+    .video-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    iframe {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
   }
   
-  .back-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: 20px;
-  }
-  
-  .back-button:hover {
-    background-color: #0056b3;
-  }

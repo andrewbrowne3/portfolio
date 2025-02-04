@@ -28,7 +28,7 @@ const PortfolioScreen = () => {
     },
     {
       id: "formulator",
-      title: "Formulator",
+      title: "Formulation App",
       description: "A tool for creating and managing formulations.",
       imageUrl: "https://andrewslearningimage-bucket.s3.us-east-1.amazonaws.com/Formulator+.png",
     },
@@ -46,7 +46,7 @@ const PortfolioScreen = () => {
     },
     {
       id: "dht11-sensor",
-      title: "DHT11 CCS811 Sensor with Capacitance",
+      title: "DHT11 CCS811 Sensor with Capacitance Touch Sense",
       description: "A sensor project integrating DHT11 and CCS811 for environmental monitoring.",
       imageUrl: "https://cdn-shop.adafruit.com/970x728/3269-04.jpg",
     },
@@ -63,6 +63,28 @@ const PortfolioScreen = () => {
       <Header />
       <Introduction />
       <main>
+      <section id="science">
+  <center><h2>Research</h2></center>
+  <div className="cards-container">
+    <ScienceCard
+      title="Towards Point of Care Diagnostics for Monitoring Dengue Virus Infection"
+      authors="Andrew Browne, Jieqiong Fang, Amany Elsharkwy, Tianwei Jia, Ying Luo, Xiaolin Sheng, Evan Reboli, Mukesh Kumar and Suri S. Iyer"
+      status="(Manuscript under review by advisor)"
+    />
+    
+    <ScienceCard
+      title="Development of Antibody-Gated Mesoporous Silica Nanoparticles for Point-of-Care Assays to Monitor Tacrolimus Concentration"
+      authors="Jieqiong Fang, Tianwei Jia, Andrew Browne, Ankan Biswas, Varma Saikam, Ying Luo and Suri S. Iyer"
+      status="(Manuscript under review by advisor)"
+    />
+    
+    <ScienceCard
+      title="Methods of Signal Amplification in Point of Care Testing"
+      authors="Andrew Browne and Jieiqong Fang"
+      status="(Manuscript under review by advisor)"
+    />
+  </div>
+</section>
         <section id="projects">
           <center><h2>Interesting Coding Projects</h2></center>
           <div className="cards-container">
@@ -77,26 +99,9 @@ const PortfolioScreen = () => {
             ))}
           </div>
         </section>
-        <section id="science">
-          <center><h2>Scientific Work (Manuscripts being submitted for publication coming soon)</h2></center>
-          <div className="cards-container">
-            <ScienceCard 
-              title="Research Paper 1" 
-              description="Brief description of your scientific work or research." 
-              link="https://linktoreserachpaper1.com"
-            />
-            <ScienceCard 
-              title="Research Paper 2" 
-              description="Details about an experiment or scientific achievement." 
-              link="https://linktoexperiment.com"
-            />
-            <ScienceCard 
-              title="Research Paper 3" 
-              description="Further exploration of scientific topics and findings." 
-              link="https://linktoexperiment.com"
-            />
-          </div>
-        </section> 
+        
+
+        
       </main>
       <Footer />
     </>
